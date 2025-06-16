@@ -1,0 +1,14 @@
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\bin\Debug\net8.0\QueRS-app.exe
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\bin\Debug\net8.0\QueRS-app.deps.json
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\bin\Debug\net8.0\QueRS-app.runtimeconfig.json
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\bin\Debug\net8.0\QueRS-app.dll
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\bin\Debug\net8.0\QueRS-app.pdb
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.AssemblyInfoInputs.cache
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.AssemblyInfo.cs
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.csproj.CoreCompileInputs.cache
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.dll
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\refint\QueRS-app.dll
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.pdb
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\QueRS-app.genruntimeconfig.cache
+C:\Users\krisn\STRUKTUR_DATA\FP\QueRS\QueRS-app\obj\Debug\net8.0\ref\QueRS-app.dll
