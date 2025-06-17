@@ -10,7 +10,7 @@ namespace QueRS_app
     {
         private PatientNode head;
 
-        public void InsertAfter(int position, PatientNode newNode)
+        public void InsertPatient(int position, PatientNode newNode)
         {
             if (head == null || position <= 0) // kalau di kepala kosong, dan posisi antrian masih 0
             {
@@ -29,20 +29,25 @@ namespace QueRS_app
             current.Next = newNode;
         }
 
-        public PatientNode RemoveFirst() //setter jika pasien sudah di tangani maka akan dikosongkan, dan head akan lanjut ke node berikutnya
-        {
-            if (head == null) return null;
-            PatientNode temp = head;
-            head = head.Next;
-            return temp;
-        }
-
         public bool IsEmpty()
         {
             return head == null;
         }
 
-        public void PrintVIPs()
+        public PatientNode RemoveFirst() 
+        {
+            if (head == null) return null; // cek apakah head itu kosong, kalau kosong ya lanjut ke reguler
+            PatientNode temp = head; // set antrian sekarang ke hold
+            head = head.Next; //set antrian yang akan dipanggil
+            return temp; // return antrian yang sedang di hold
+        }
+
+        public void Requeue(PatientNode node, int afterCount)
+        {
+            InsertPatient(afterCount, node);
+        }
+
+        public void PrintVIPs() // bubble sort
         {
             var patients = new List<PatientNode>();
             var temp = head;
@@ -51,35 +56,26 @@ namespace QueRS_app
                 patients.Add(temp);
                 temp = temp.Next;
             }
-            foreach (var p in patients.OrderBy(x => x.QueueNumber))
+
+            for (int i = 0; i < patients.Count - 1; i++)
+            {
+                for (int j = 0; j < patients.Count - i - 1; j++)
+                {
+                    if (string.Compare(patients[j].QueueNumber, patients[j + 1].QueueNumber) > 0)
+                    {
+                        var tmp = patients[j];
+                        patients[j] = patients[j + 1];
+                        patients[j + 1] = tmp;
+                    }
+                }
+            }
+
+            foreach (var p in patients)
             {
                 Console.WriteLine($"{p.QueueNumber} - {p.Name} (VIP)");
             }
         }
 
-        public bool RemoveById(string id, out PatientNode removed) // untuk fitur skip jika pasien belum hadir
-        {
-            removed = null; // disini removed masih null (Kosong)
-            PatientNode prev = null, curr = head; // 
-            while (curr != null) // jika masih ada antrian sleanjutnya (bukan antrian terakhir
-            {
-                if (curr.QueueNumber == id)
-                {
-                    removed = curr; //removed diisi dengan curr yang mana adalah ID pasien yang ingin di skip
-                    if (prev == null) head = curr.Next;
-                    else prev.Next = curr.Next;
-                    return true;
-                }
-                prev = curr;
-                curr = curr.Next;
-            }
-            return false;
-        }
-
-        public void Requeue(PatientNode node, int afterCount)
-        {
-            InsertAfter(afterCount, node);
-        }
     }
 
 }

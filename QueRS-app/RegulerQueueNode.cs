@@ -29,7 +29,7 @@ namespace QueRS_app
             }
         }
 
-        public PatientNode Dequeue() // memanggil antrian
+        public PatientNode Dequeue() 
         {
             if (head == null) return null; // kalau antrian di awal kosong
             PatientNode result = head.Data; // set data ke head atau ke awal
@@ -42,7 +42,7 @@ namespace QueRS_app
 
         public PatientNode Peek() => head?.Data;
 
-        public void PrintQueue()
+        public void PrintQueue() // bubble sort
         {
             var patients = new List<PatientNode>();
             var temp = head;
@@ -51,31 +51,27 @@ namespace QueRS_app
                 patients.Add(temp.Data);
                 temp = temp.Next;
             }
-            foreach (var p in patients.OrderBy(x => x.QueueNumber))
+
+            for (int i = 0; i < patients.Count - 1; i++)
+            {
+                for (int j = 0; j < patients.Count - i - 1; j++)
+                {
+                    if (string.Compare(patients[j].QueueNumber, patients[j + 1].QueueNumber) > 0)
+                    {
+                        var tmp = patients[j];
+                        patients[j] = patients[j + 1];
+                        patients[j + 1] = tmp;
+                    }
+                }
+            }
+
+            foreach (var p in patients)
             {
                 Console.WriteLine($"{p.QueueNumber} - {p.Name} (Reguler)");
             }
         }
 
-        public bool RemoveById(string id, out PatientNode removed) // fitur skip kalau pasien belum hadir
-        {
-            removed = null;
-            RegulerQueueNode prev = null, curr = head;
-            while (curr != null) // looping selama current itu tidak kosong
-            {
-                if (curr.Data.QueueNumber == id) // set curr dengan ID antrian
-                {
-                    removed = curr.Data; // set removed dengan data dari current
-                    if (prev == null) head = curr.Next; // kalau antrian pertama, maka head akan di set ke antrian selanjutnya
-                    else prev.Next = curr.Next; // kalau antrian bukan pertama, maka antrian sebelumnya akan di set ke antrian selanjutnya
-                    if (curr == tail) tail = prev; //kalau antrian terakhir, ga di skip
-                    return true;
-                }
-                prev = curr;
-                curr = curr.Next;
-            }
-            return false;
-        }
+
 
         public void Requeue(PatientNode node, int afterCount)
         {

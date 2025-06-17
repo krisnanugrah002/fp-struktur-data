@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\",
+  "WorkspaceRootPath": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\quers\\quers-app\\queuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:queuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\fp-struktur-data\\quers-app\\viplinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:viplinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\quers\\quers-app\\regulerqueuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\fp-struktur-data\\quers-app\\regulerqueuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:regulerqueuenode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\quers\\quers-app\\patientnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:patientnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\fp-struktur-data\\quers-app\\queuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:queuemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\quers\\quers-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\fp-struktur-data\\quers-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|c:\\users\\krisn\\struktur_data\\fp\\fp-struktur-data\\quers-app\\patientnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6794A49F-F45A-4500-8A5E-C75971797D86}|QueRS-app.csproj|solutionrelative:patientnode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,80 +29,78 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 237,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 163,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RegulerQueueNode.cs",
-              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\RegulerQueueNode.cs",
-              "RelativeDocumentMoniker": "RegulerQueueNode.cs",
-              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\RegulerQueueNode.cs",
-              "RelativeToolTip": "RegulerQueueNode.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA5wDoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VIPLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\VIPLinkedList.cs",
+              "RelativeDocumentMoniker": "VIPLinkedList.cs",
+              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\VIPLinkedList.cs",
+              "RelativeToolTip": "VIPLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-16T12:01:23.533Z",
+              "WhenOpened": "2025-06-16T22:33:48.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "QueueManager.cs",
-              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\QueueManager.cs",
+              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\QueueManager.cs",
               "RelativeDocumentMoniker": "QueueManager.cs",
-              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\QueueManager.cs",
+              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\QueueManager.cs",
               "RelativeToolTip": "QueueManager.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwDsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAgwHEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T04:59:23.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegulerQueueNode.cs",
+              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\RegulerQueueNode.cs",
+              "RelativeDocumentMoniker": "RegulerQueueNode.cs",
+              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\RegulerQueueNode.cs",
+              "RelativeToolTip": "RegulerQueueNode.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAowCwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T12:01:23.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\Program.cs",
+              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwDYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-15T04:58:35.873Z",
               "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "97c674fb-91b8-4548-b6fc-afdae8922cf9",
-        "Display": 0,
-        "X": 762,
-        "Y": 238,
-        "Width": 1334,
-        "Height": 651,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
+            },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PatientNode.cs",
-              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\PatientNode.cs",
+              "DocumentMoniker": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\PatientNode.cs",
               "RelativeDocumentMoniker": "PatientNode.cs",
-              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\QueRS\\QueRS-app\\PatientNode.cs",
+              "ToolTip": "C:\\Users\\krisn\\STRUKTUR_DATA\\FP\\fp-struktur-data\\QueRS-app\\PatientNode.cs",
               "RelativeToolTip": "PatientNode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

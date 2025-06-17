@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QueRS-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8bda49e9be763596ec9b1d5ea511670cae33da82")]
 [assembly: System.Reflection.AssemblyProductAttribute("QueRS-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QueRS-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

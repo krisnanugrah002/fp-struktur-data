@@ -55,11 +55,12 @@ namespace QueRS_app
             };
 
             if (type == "Reguler") regulerQueue.Enqueue(newNode);
-            else vipList.InsertAfter(2, newNode);
+            else vipList.InsertPatient(2, newNode);
 
             Console.WriteLine($"Pasien {type} {name} terdaftar dengan nomor antrian {queueNumber}");
         }
 
+        //fungsi 2 panggil
         public void CallNext()
         {
             if (currentPatient != null)
@@ -92,6 +93,7 @@ namespace QueRS_app
             }
         }
 
+        //fungsi 3 skip
         public void SkipCurrent()
         {
             if (currentPatient == null)
@@ -110,6 +112,7 @@ namespace QueRS_app
 
             currentPatient = null;
         }
+
 
         public void ShowQueue()
         {
